@@ -1,16 +1,4 @@
-# baseURL = 'https://example.org/'
-# languageCode = 'en-us'
-# title = 'My New Hugo Site'
-# theme = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
-
-# [module]
-# [[module.imports]]
-# disable = false
-# ignoreConfig = false
-# ignoreImports = false
-# path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
-
-title = "Notre-Dame de Paris"
+title = "Flying Oak Music"
 baseURL = "https://gohugo-theme-ananke.pages.dev"
 languageCode = "en-us"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
@@ -27,7 +15,7 @@ enableRobotsTXT = true
 [languages.en]
 title = "Ananke"
 weight = 1
-contentDir = "content/en"
+contentDir = "content"
 # languageDirection = 'rtl' for Right-To-Left languages
 [languages.fr]
 title = "Ananke Fr"
@@ -52,3 +40,7 @@ recent_posts_number = 3
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/GoHugoIO"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
