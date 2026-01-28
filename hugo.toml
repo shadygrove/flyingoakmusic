@@ -1,5 +1,5 @@
 title = "Flying Oak Music"
-baseURL = "https://gohugo-theme-ananke.pages.dev"
+baseURL = "https://shadygrove.github.io/flyingoakmusic"
 languageCode = "en-us"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
 resourceDir = "../resources"
