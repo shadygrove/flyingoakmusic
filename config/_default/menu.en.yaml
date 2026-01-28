@@ -1,0 +1,48 @@
+# main:
+#   - name: Documentations
+#     identifier: documentations
+#     url: https://hbs.razonyang.com/v1/en/docs/
+#     params:
+#       icon: '<i class="fas fa-fw fa-book"></i>'
+main:
+  - name: About
+    identifier: about
+    pageRef: /about
+  - name: Blog
+    identifier: blog
+    pageRef: /blog
+    params:
+      icon: '<i class="fas fa-fw fa-blog"></i>'
+      description: 'Blog Menu Description'
+  - name: Archive
+    identifier: archives
+    pageRef: /archives
+    text: archives
+    parent: blog
+    weight: 1
+    params:
+      icon: <i class="fas fa-fw fa-file-archive text-primary"></i>
+  - name: Series
+    pageRef: /series
+    parent: blog
+    weight: 2
+    params:
+      icon: <i class="fas fa-fw fa-columns"></i>
+      description: List of series.
+  - name: Categories
+    identifier: categories
+    pageRef: /categories
+    parent: blog
+    weight: 3
+    params:
+      icon: <i class="fas fa-fw fa-folder text-success"></i>
+      description: List of categories.
+  - name: Tags
+    parent: blog
+    pageRef: /tags
+    weight: 4
+    params:
+      icon: <i class="fas fa-fw fa-tags"></i>
+      description: List of tags.
+  
+

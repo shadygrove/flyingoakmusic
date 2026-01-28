@@ -1,11 +1,11 @@
 
+.DS_Store
 
 # Hugo files/paths
 .hugo_build.lock
-
 */resources/*
-
-.DS_Store
-
 public
 resources
+
+
+node_modules
