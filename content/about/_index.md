@@ -5,3 +5,6 @@ title = 'About'
 +++
 
 All about Flying Oak Music.
+
+We produce music and get it out into the world.
+

@@ -13,12 +13,12 @@ enableRobotsTXT = true
 
 [languages]
 [languages.en]
-title = "Ananke"
+title = "Home"
 weight = 1
 contentDir = "content"
 # languageDirection = 'rtl' for Right-To-Left languages
 [languages.fr]
-title = "Ananke Fr"
+title = "Home Fr"
 weight = 2
 contentDir = "content/fr"
 
