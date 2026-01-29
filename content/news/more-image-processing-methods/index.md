@@ -20,6 +20,8 @@ tags:
   - Filters
 authors:
   - Martin
+artists:
+  - Martin
 images: []
 ---
 

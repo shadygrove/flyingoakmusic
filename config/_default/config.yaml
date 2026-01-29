@@ -23,6 +23,7 @@ taxonomies:
   series: series
   tag: tags
   authors: authors
+  artists: artists
 
 build:
   writeStats: true

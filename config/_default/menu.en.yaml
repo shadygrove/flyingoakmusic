@@ -17,6 +17,12 @@ main:
     identifier: contact
     pageRef: /contact
     weight: 2
+  - name: News
+    identifier: news
+    pageRef: /news
+    params:
+      icon: '<i class="fas fa-fw fa-blog"></i>'
+      description: 'News'
   - name: Blog
     identifier: blog
     pageRef: /blog
