@@ -21,7 +21,7 @@ brand: Flying Oak Music
 
 palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
-# palettes:
+palettes:
 #  - blue
 #  - blue-gray
 #  - brown
@@ -35,7 +35,7 @@ palette: purple # Default palette. Optional. You'll need to clear the browser ca
 #  - teal
 #  - yellow
 
-# color: dark # light, dark or auto. Default to auto.
+color: light # light, dark or auto. Default to auto.
 
 # fullWidth: true # Full width.
 # fixedHeader: false # Turn on/off fixed header.
@@ -52,7 +52,7 @@ googleAdsense:
 # breadcrumbDivider: > # Breadcrumb divider
 # diagram: true
 # socialShare: false # disable social network sharing
-# searchBar: false # disable search-bar
+searchBar: false # disable search-bar
 
 # poweredBy: false # Whether to show powered by.
 
@@ -219,7 +219,7 @@ reward:
   # disabled: true
 
 # Comment or remove this settings to disable font size switcher.
-fontSize:
+# fontSize:
   # extraSmall: .8rem
   # small: .9rem
   # large: 1.1rem
@@ -250,15 +250,16 @@ contact:
     # siteKey: ""
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/shadygrove/flyingoakmusic
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 
 topAppBar:
+  colorToggle: false
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: shadygrove
+    # github: shadygrove
     # patreon: 
     # paypal: 
 
