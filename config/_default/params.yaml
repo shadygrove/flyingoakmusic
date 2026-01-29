@@ -19,7 +19,7 @@ logo: images/logo.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
 brand: Flying Oak Music
 
-palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: blue-gray # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 palettes:
 #  - blue
@@ -308,11 +308,11 @@ social:
   # tipeee: yourtipeeeaccount-fr
 
 author:
-  name: Martin
-  # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
-  bio: 'Gopher, PHPer, Full Stack Engineer.'
-  company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
-  location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+  name: Flying Oak Music
+  avatar: images/logo-sm.png # Avatar image. Default to "images/profile.webp".
+  bio: 'Music creator/producer/engineer'
+  company: Flying Oak Music # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+  location: Pennsylvania # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
   # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
   params: {
     # layout: compact

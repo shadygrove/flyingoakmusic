@@ -5,9 +5,18 @@
 #     params:
 #       icon: '<i class="fas fa-fw fa-book"></i>'
 main:
+  - name: Home
+    identifier: home
+    pageRef: /index
+    weight: 1
   - name: About
     identifier: about
     pageRef: /about
+    weight: 2
+  - name: Contact
+    identifier: contact
+    pageRef: /contact
+    weight: 2
   - name: Blog
     identifier: blog
     pageRef: /blog
