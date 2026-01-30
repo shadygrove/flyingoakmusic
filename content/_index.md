@@ -5,8 +5,9 @@ title = 'Flying Oak Music'
 
 [cascade] 
 comment = false
-sidebar = true
+sidebar = false
 copyright = false
+reward = false
 +++
 
 # Welcome To Flying Oak Music

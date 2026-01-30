@@ -7,8 +7,8 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: We bring quality music to the world
+keywords: Music, Record, Label, Artists, Songwriters, Musicians, Producition, Recording
 # images:
 #   - site-feature-image.jpg
 
@@ -54,7 +54,7 @@ googleAdsense:
 # socialShare: false # disable social network sharing
 searchBar: false # disable search-bar
 
-# poweredBy: false # Whether to show powered by.
+poweredBy: false # Whether to show powered by.
 
 # readingTime: false # Whether to display the reading time.
 # postDate: false # Whether to display the post date in the post meta section.
@@ -116,7 +116,7 @@ post:
   # tocStyleType: decimal # The TOC's CSS list-style-type property.
   # imageTitleAsCaption: true
   # panel: false # Disable the post panel.
-  # nav: false # Disable post navigations.
+  nav: false # Disable post navigations.
   # The page position after clicking the read more button, read more from content if true. Default to the beginning of page.
   # It supports only of the manual summaries spliting via <!--more-->.
   # readMoreFromContent: true
@@ -205,9 +205,9 @@ search:
   # indexName: ""
   # debug: true
 
-reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
+# reward:
+  # alipay: images/reward/alipay.png
+  # wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
@@ -243,7 +243,7 @@ pwa:
     #   src: /images/icons/icon-144x144.png
 
 contact:
-  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
+  # endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
   # file: true # Enable file upload
   # fileField: image # The name of file field.
   # reCaptcha:
@@ -273,8 +273,8 @@ docs:
 
 social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
-  email: user@domain.tld
-  facebook: yourfacebookusername
+  email: flyingoakmusic@gmail.com
+  # facebook: yourfacebookusername
   # github: 
   # gitlab: yourgitlabusername
   # linkedin: yourlinkedinusername
@@ -283,7 +283,7 @@ social:
   # twitter: yourtwitterusername
   # weibo: yourweibousername
   # zhihu: yourzhihuusername
-  instagram: yourinstagramusername
+  # instagram: yourinstagramusername
   # quora: yourquorausername
   # tumblr: yourtumblrusername
   # reddit: yourredditusername
@@ -295,10 +295,10 @@ social:
   # medium: yourmediumusername # Medium username or custom domain(e.g. https://custom.domain.tld).
   # lastfm: yourlastfmusername
   # bilibili: yourbilibiliuserid
-  youtube: youryoutubechannelid
+  youtube: https://www.youtube.com/@flyingoakmusic
   # discord: yourdiscordinvitecode
   # discourse: https://yourforum.tld
-  facebookgroup: yourfacebookgroupname
+  # facebookgroup: yourfacebookgroupname
   # tiktok: yourtiktokusername
   # pinterest: yourpinterestusername
   # mastodon: yourmastodonusername
