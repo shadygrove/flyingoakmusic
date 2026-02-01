@@ -1,12 +1,12 @@
 +++
 title = "About"
-description = "Describe yourself."
 reward = false
 postDate = false
 readingTime = false
 +++
 
-All about Flying Oak Music.
+Flying Oak Music is committed to creating quality music recordings _and_ exposing them to the world.
 
-We produce music and get it out into the world.
+We specialize in acoustic and instrumental music.
 
+We work through mutual trust and respect.

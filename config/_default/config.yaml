@@ -47,3 +47,8 @@ markup:
     lineNos: true
     noClasses: false
     lineNumbersInTable: false
+
+privacy:
+  youTube:
+    disable: false
+    privacyEnhanced: false

@@ -2,7 +2,7 @@
 # type: docs 
 title: More Image Processing Methods
 date: 2022-07-08T11:34:47+08:00
-featured: true
+featured: false
 draft: false
 # comment: true
 toc: true
@@ -18,10 +18,6 @@ tags:
   - Fit
   - Fill
   - Filters
-authors:
-  - Martin
-artists:
-  - Martin
 images: []
 ---
 
