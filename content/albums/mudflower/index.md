@@ -25,7 +25,7 @@ youtubeEmbedURL: https://www.youtube-nocookie.com/embed/videoseries?si=edO2gWmsM
 albumSocials:
   searchFor: 'Mud Flower Martin Bour'
   amazonmusic: B0GCCWJTFL
-  youtube: albumchannel
+  youtubeplaylist: OLAK5uy_kdzKehRLVTAOJ-i62Xvd0RAIGsgmRYlGI&si=lhDE9Swc1clmyCnq
   applemusic: mud-flower/1864025181
   spotify: 03fJfzh3mbUmOf6XBP4rK2
 ---
