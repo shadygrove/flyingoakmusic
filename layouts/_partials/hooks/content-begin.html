@@ -1,7 +1,8 @@
 
+{{- if $.Params.albumSocials -}}
 {{- partial "albums/social-music" (dict 
     "class" "justify-content-md-center mb-1" 
     "size" "fa-4x"
     "links" $.Params.albumSocials
     ) -}}
-
+{{- end -}}
