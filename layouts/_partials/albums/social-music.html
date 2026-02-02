@@ -1,0 +1,39 @@
+{{/* url: the URL format, "%s" is the username placeholder */}}
+{{/* icon: the Font Awesome icon class */}}
+{{- $socials := dict
+  "facebook" (dict "url" "https://facebook.com/%s" "icon" "fab fa-facebook-f" "color" "#1877f2")
+  "instagram" (dict "url" "https://www.instagram.com/%s" "color" "#c03957")
+  "lastfm" (dict "url" "https://www.last.fm/user/%s" "color" "#ba0000")
+  "tiktok" (dict "url" "https://www.tiktok.com/@%s" "icon" "fab fa-tiktok")
+  "website" (dict "url" "%s" "icon" "fas fa-link")
+  "x" (dict "url" "https://x.com/%s" "icon" "fab fa-x-twitter" "color" "#000000")
+  "youtube" (dict "url" "https://www.youtube.com/channel/%s" "icon" "fab fa-youtube" "color" "#ff0000")
+  "spotify" (dict "url" "https://open.spotify.com/album/%s" "icon" "fab fa-spotify" "color" "#1DB954")
+  "applemusic" (dict "url" "https://music.apple.com/us/album/%s" "icon" "fab fa-apple" "color" "#1D1D1F")
+  "amazonmusic" (dict "url" "https://music.amazon.com/albums/%s" "icon" "fab fa-amazon" "color" "#0DBFF5")
+-}}
+{{- $size := default "" .size }}
+{{- $linkClass := default "" .linkClass }}
+{{- $color := default (default true site.Params.socialColor) .color }}
+{{- $iconText := default false .iconText }}
+{{- $iconTextClass := default "ms-1" .iconTextClass }}
+
+<nav class="social-links nav justify-content-center{{ with .class }} {{ . }}{{ end }}">
+{{- range $key, $user := .links }}
+  {{- with index $socials $key }}
+    {{- $link := printf .url $user }}
+    {{- $url := urls.Parse $user }}
+    {{- if $url.Scheme }}{{ $link = $url.String }}{{ end }}
+    <a class="nav-link social-link{{ with $linkClass }} {{ . }}{{ end }}" target="_blank" href="{{ $link }}" title="{{ printf "social_%s" $key | i18n }}" rel="me">
+      <i class="fa-fw{{ with $size }} {{ . }}{{ end }} {{ default ( printf "fab fa-%s" $key ) .icon }}" 
+          {{ if and $color .color }} style="color: {{ .color }};"{{ end }}></i>
+      {{- if $iconText }}
+      <span{{ with $iconTextClass }} class="{{ . }}"{{ end }}>{{ default (title $key) .title }}</span>
+      {{- end }}
+    </a>
+  {{- end }}
+{{- end }}
+
+  {{- $searchFor := index .links .searchFor -}}
+  <p>Also available on most other streaming services! Just search for <strong>"{{- .links.searchFor -}}"</strong></p>
+</nav>
