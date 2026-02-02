@@ -3,7 +3,7 @@
 title: Mud Flower
 date: 2026-01-04T22:14:26-05:00
 
-description: "Mud Flower is an album of acoustic guitar driven instrumental music with simple melodies by Martin Bour."
+description: "Mud Flower is an album of acoustic guitar-driven instrumental music created by Martin Bour."
 featured: false
 draft: false
 # comment: true
@@ -17,12 +17,9 @@ artists:
 series:
   - News
 categories:
-  - Image
+  - Albums
 tags: 
-  - Crop
-  - Fit
-  - Fill
-  - Filters
+  - Instrumental
 # images: ["mud_flower_cover.jpg"]
 youtubeEmbedURL: https://www.youtube-nocookie.com/embed/videoseries?si=edO2gWmsMcA9ahdB&amp;list=OLAK5uy_kdzKehRLVTAOJ-i62Xvd0RAIGsgmRYlGI
 albumSocials:

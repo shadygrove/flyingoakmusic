@@ -19,10 +19,10 @@
 {{- $iconTextClass := default "ms-1" .iconTextClass }}
 
 <nav class="social-links nav justify-content-center{{ with .class }} {{ . }}{{ end }}">
-{{- range $key, $user := .links }}
+{{- range $key, $val := .links }}
   {{- with index $socials $key }}
-    {{- $link := printf .url $user }}
-    {{- $url := urls.Parse $user }}
+    {{- $link := printf .url $val }}
+    {{- $url := urls.Parse $val }}
     {{- if $url.Scheme }}{{ $link = $url.String }}{{ end }}
     <a class="nav-link social-link{{ with $linkClass }} {{ . }}{{ end }}" target="_blank" href="{{ $link }}" title="{{ printf "social_%s" $key | i18n }}" rel="me">
       <i class="fa-fw{{ with $size }} {{ . }}{{ end }} {{ default ( printf "fab fa-%s" $key ) .icon }}" 
@@ -34,6 +34,7 @@
   {{- end }}
 {{- end }}
 
-  {{- $searchFor := index .links .searchFor -}}
-  <p>Also available on most other streaming services! Just search for <strong>"{{- .links.searchFor -}}"</strong></p>
+{{- if .links.searchfor -}}
+  <p>Also available on most other streaming services! Just search for <strong>"{{- .links.searchfor  -}}"</strong></p>
+{{- end -}}
 </nav>
