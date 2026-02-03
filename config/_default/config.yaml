@@ -9,7 +9,8 @@ disableLanguages:
  - zh-cn
  - zh-tw
 pagination:
-  pagerSize: 10
+  pagerSize: 4
+  path: page
 # paginatePath: page
 enableRobotsTXT: true
 enableEmoji: true
@@ -23,7 +24,7 @@ taxonomies:
   series: series
   tag: tags
   authors: authors
-  artists: artists
+  # artists: artists
 
 build:
   writeStats: true
@@ -31,6 +32,7 @@ build:
 permalinks:
   news: /news/:year/:month/:title/
   blog: /blog/:year/:month/:title/
+  albums: /albums/:title/
 
 module:
   imports:

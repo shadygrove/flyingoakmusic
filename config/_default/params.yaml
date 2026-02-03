@@ -1,13 +1,16 @@
 # sass_transpiler: 'dartsass' # Uncomment to use Dart Sass, you need to install Dart Sass first.
 
 mainSections:
-  - blog
-  - posts
-  - news
+  # - blog
+  # - posts
+  # - news
+  - albums
+  - about
+  # - artists
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: We bring quality music to the world
+description: Bringing quality music to the world
 keywords: Music, Record, Label, Artists, Songwriters, Musicians, Producition, Recording
 # images:
 #   - site-feature-image.jpg
@@ -72,7 +75,7 @@ countTaxonomyPosts: true # Count posts of taxonomy.
 # sidebarTaxonomies: [categories, tags, series] # The order of taxonomies on the sidebar.
 
 pinnedPost: true # Turn on/off pinned posts.
-pinnedPostCount: 10 # The number of pinned posts.
+pinnedPostCount: 3 # The number of pinned posts.
 
 # Custom CSS and JS
 customCSS:
@@ -108,7 +111,7 @@ post:
   # excerpt: description
   # excerptMaxLength: 120
   # copyright: false # Whether to display copyright section on each post.
-  plainifyExcerpt: true # Format excerpt in HTML if false.
+  # plainifyExcerpt: true # Format excerpt in HTML if false.
   featuredImage: true # Show the featured image above the content.
   numberifyHeadings: false # Count headings automatically.
   # numberifyHeadingsEndLevel: 4 # The depth of headings to count. Default to 6.
@@ -205,10 +208,10 @@ search:
   # indexName: ""
   # debug: true
 
-reward:
+# reward:
   # alipay: images/reward/alipay.png
   # wechat: images/reward/wechat.png
-  paypal: images/reward/paypal.png
+  # paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
 
@@ -310,8 +313,8 @@ social:
 author:
   name: Flying Oak Music
   avatar: images/logo-sm.png # Avatar image. Default to "images/profile.webp".
-  bio: 'Music creator/producer/engineer'
-  company: Flying Oak Music # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+  bio: 'Bringing quality music to the world'
+  # company: Flying Oak Music # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
   location: Pennsylvania # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
   # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
   params: {
@@ -319,9 +322,9 @@ author:
   }
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    # email: 
+    email: 
     # github: 
     # twitter: 
     # patreon: 
     # paypal: 
-    # rss: "" # Remove RSS
+    rss: "" # Remove RSS

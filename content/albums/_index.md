@@ -1,7 +1,6 @@
 ---
 # type: docs 
 title: Albums
-
 # cascade:
 #   sidebar: false
 #   featured: false

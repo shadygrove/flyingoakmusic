@@ -33,8 +33,9 @@
     </a>
   {{- end }}
 {{- end }}
-
-{{- if .links.searchfor -}}
-  <p>Also available on most other streaming services! Just search for <strong>"{{- .links.searchfor  -}}"</strong></p>
-{{- end -}}
 </nav>
+{{- if .links.searchfor -}}
+<div class="justify-content-center{{ with .class }} {{ . }}{{ end }}">
+  <p>Also available on most other streaming services! Just search for <strong>"{{- .links.searchfor  -}}"</strong></p>
+</div>
+{{- end -}}
