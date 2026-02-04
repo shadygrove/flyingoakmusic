@@ -10,7 +10,7 @@ toc: false
 reward: false
 pinned: true
 pinnedWeight: 2
-carousel: true
+carousel: false
 artists: 
   - "Martin"
 # series:
