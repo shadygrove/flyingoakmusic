@@ -43,33 +43,19 @@ I dedicate this album to all those people who encouraged me to keep at the music
 
 In particular, I dedicate this album in memory of Diana Roberts.  You were always truly "for others" and just "got it" when you heard my music.  You are missed.
 
+{{< youtubeplaylist playlistURL=.Params.albumSocials.youtubeplaylist >}}
 ## Songs
 
-### Conception
+**Conception**: This came to me at a time in life when I was anticipating the birth of our little girl yet also contemplating the late-term loss of our first child.  For me, it brings me back to a time of mixed emotions of sorrow, fear, joy, excitement and anticipation.
 
-This came to me at a time in life when I was anticipating the birth of our little girl yet also contemplating the late-term loss of our first child.  For me, it brings me back to a time of mixed emotions of sorrow, fear, joy, excitement and anticipation.
+**One Night**: This came out of a bit of angst over not having a musical project in the works.  The idea was to see what I could create in one night.  By sticking to a simple two-chord progression I tried to set a mood.  By the end of the WEEKEND, I had something that I was satisified with.
 
-### One Night
+**Mud Flower**: This started as a little guitar riff that I played often.  Once I got it recorded, I wanted to see how I could create variations of the riff by adding percussion and other instruments.  I had fun with the percussion elements on this one.
 
-This came out of a bit of angst over not having a musical project in the works.  The idea was to see what I could create in one night.  By sticking to a simple two-chord progression I tried to set a mood.  By the end of the WEEKEND, I had something that I was satisified with.
+**This'n That**: Two different ideas came together on this one.  Originally, I called one This and the other That, but then the idea "This'n" something grew on me.  For me it means not to always be a casual observer of the world around you as if it wasn't meant or allowed for you to experience.  Instead, make "that" become "this".  The thing in your hand; not in someone else's.
 
-### Mud Flower
+**Happy Rain**: This is just a little idea that reminded me of the pitter patter of rain... but with a happy bounce to it.  Rain doesn't always have to represent sadness.  Sometimes, rain is just the thing we need.  It refreshes, restores, replenishes, and  brings new life.
 
-This started as a little guitar riff that I played often.  Once I got it recorded, I wanted to see how I could create variations of the riff by adding percussion and other instruments.  I had fun with the percussion elements on this one.
+**Concept One**: While not the first track on this album, it is one of the earliest ideas I first recorded years ago.  After some editing and mixing I was able to bring this one back to life.
 
-### This'n That
-
-Two different ideas came together on this one.  Originally, I called one This and the other That, but then the idea "This'n" something grew on me.  For me it means not to always be a casual observer of the world around you as if it wasn't meant or allowed for you to experience.  Instead, make "that" become "this".  The thing in your hand; not in someone else's.
-
-## Happy Rain
-
-This is just a little idea that reminded me of the pitter patter of rain... but with a happy bounce to it.  Rain doesn't always have to represent sadness.  Sometimes, rain is just the thing we need.  It refreshes, restores, replenishes, and  brings new life.
-
-## Concept One
-
-While not the first track on this album, it is one of the earliest ideas I first recorded years ago.  After some editing and mixing I was able to bring this one back to life.
-
-## Luna
-
-Honestly, this started out as a very simple experiment to test out some recording software that I was wanting to learn.  That software is called LUNA and there you go.  Eventually, all the songs on this album got re-edited, re-mixed, and mastered using LUNA by Universal Audio.  
-
+**Luna**: Honestly, this started out as a very simple experiment to test out some recording software that I was wanting to learn.  That software is called LUNA and there you go.  Eventually, all the songs on this album got re-edited, re-mixed, and mastered using LUNA by Universal Audio.  
