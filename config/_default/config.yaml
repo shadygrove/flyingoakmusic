@@ -1,4 +1,4 @@
-baseURL: https://flyingoakmusic.com/
+baseURL: https://www.flyingoakmusic.com/
 title: Flying Oak Music
 copyright: 'Copyright © 2026-{year} Flying Oak Music'
 defaultContentLanguage: en
@@ -30,8 +30,8 @@ build:
   writeStats: true
 
 permalinks:
-  news: /news/:year/:month/:title/
-  blog: /blog/:year/:month/:title/
+  # news: /news/:year/:month/:title/
+  # blog: /blog/:year/:month/:title/
   albums: /albums/:title/
 
 module:

@@ -18,7 +18,7 @@ keywords: Music, Record, Label, Artists, Songwriters, Musicians, Producition, Re
 # metaRobots: noindex, nofollow # Default value for Meta Tag robots
 # metaRobots:  # disable Meta Tag robots
 
-logo: /images/logo.png # Logo image. Default to images/logo.webp.
+logo: images/logo.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
 brand: Flying Oak Music
 
